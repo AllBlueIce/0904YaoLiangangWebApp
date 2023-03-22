@@ -15,6 +15,32 @@
         <servlet-name>RegisterServlet</servlet-name>
         <servlet-class>com.YaoLiangang.week3.RegisterServlet</servlet-class>
     </servlet>
+<!--    <servlet>-->
+<!--        <servlet-name>ConfigDemoServlet</servlet-name>-->
+<!--        <servlet-class>com.YaoLiangang.week4.ConfigDemoServlet</servlet-class>-->
+<!--&lt;!&ndash;        String driver="com.microsoft.sqlserver.jdbc.SQLServerDriver";&ndash;&gt;-->
+<!--&lt;!&ndash;        String url="jdbc:sqlserver://localhost:databaseName=userdb  ";&ndash;&gt;-->
+<!--&lt;!&ndash;        String username="sa";&ndash;&gt;-->
+<!--&lt;!&ndash;        String password="20030205";&ndash;&gt;-->
+<!--        <init-param>-->
+<!--            <param-name>driver</param-name>-->
+<!--            <param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>-->
+<!--        </init-param>-->
+<!--        <init-param>-->
+<!--            <param-name>url</param-name>-->
+<!--            <param-value>jdbc:sqlserver://localhost:databaseName=userdb</param-value>-->
+<!--        </init-param>-->
+<!--        <init-param>-->
+<!--            <param-name>username</param-name>-->
+<!--            <param-value>sa</param-value>-->
+<!--        </init-param>-->
+<!--        <init-param>-->
+<!--            <param-name>password</param-name>-->
+<!--            <param-value>20030205</param-value>-->
+<!--        </init-param>-->
+<!--        <load-on-startup>1</load-on-startup>-->
+
+<!--    </servlet>-->
     <servlet-mapping>
     <servlet-name>homework</servlet-name>
     <url-pattern>/homework</url-pattern>
@@ -26,5 +52,10 @@
     <servlet-mapping>
         <servlet-name>RegisterServlet</servlet-name>
         <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ConfigDemoServlet</servlet-name>
+        <url-pattern>/config</url-pattern>
+
     </servlet-mapping>
 </web-app>
